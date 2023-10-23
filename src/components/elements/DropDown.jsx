@@ -7,7 +7,7 @@ function DropDown({value,items}) {
     <label>
       <p>{value}</p>
       <select name={value} id={value}>
-        {items.map((item, i) => <option key={item} value={item}>{item}</option>
+        { items && items.map((item, i) => <option key={item} value={item}>{item}</option>
         )}
       </select>
     </label>

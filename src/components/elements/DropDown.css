@@ -1,4 +1,5 @@
 select {
+    margin-top: 0.5rem;
     width: 20rem;
     height: 3rem;
     flex-shrink: 0;

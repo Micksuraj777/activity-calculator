@@ -1,0 +1,125 @@
+section {
+  margin-top: 2rem;
+}
+
+form {
+  width: 50rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+  gap: 2rem;
+}
+
+.drop-files {
+  border-radius: 10px;
+  border: 2px dashed #b2abab;
+  background-color: #f7f6fe;
+  display: flex;
+  gap: 0.6rem;
+  flex-direction: column;
+  width: 783px;
+  padding: 2rem;
+}
+
+.drop-files>h4 {
+  color: rgba(0, 0, 0, 0.98);
+  font-family: Inter, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 100;
+  letter-spacing: 0.61px;
+  text-align: center;
+}
+
+.click-here {
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 400;
+  font-family: Inter, sans-serif;
+  letter-spacing: 0.366px;
+  text-align: center;
+}
+
+#add-files {
+  border-radius: 8px;
+  background-color: #512b81;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  width: fit-content;
+  padding-inline: 5rem;
+  height: 3rem;
+  margin: -50px 0 0 -22px;
+}
+
+#add-files>p {
+  color: white;
+}
+
+.add-icon {
+  width: 1.2rem;
+}
+
+.options {
+  width: 100%;
+  padding-inline: 2rem;
+}
+
+.options-wrapper {
+  width: 100%;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  margin-block: 1rem;
+}
+
+hr {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url("../assets/images/arrow-drop-down-line\ 1.svg");
+  background-repeat: no-repeat;
+  padding-inline: 1rem;
+  background-position: 18rem;
+}
+
+
+.form-footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+
+}
+
+.form-footer button {
+  border-radius: 8px;
+  background-color: var(--primary);
+  color: white;
+  padding: 0.3rem;
+  padding-inline: 1rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.form-footer span {
+  color: #474747;
+}
+
+.footer-left button {
+  padding: 0.5rem;
+  padding-inline: 4rem;
+  font-weight: bold;
+}
