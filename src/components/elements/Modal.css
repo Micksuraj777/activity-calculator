@@ -1,0 +1,19 @@
+dialog{
+  border-radius: 30px;
+  margin: 5% auto;
+  background-color: #fff;
+  outline: none;
+  border:2px solid hsl(0 0% 0% / 50%) ;
+  padding: 2rem;
+}
+
+
+dialog::backdrop {
+  background-color:hsl(0 0% 0% / 50%);
+  filter: blur(10px);
+  opacity: 0.75;
+}
+
+#close-button{
+  float: right;
+}
