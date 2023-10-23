@@ -6,15 +6,20 @@ import Modal from "./elements/Modal.jsx"
 
 import AddButton from '../assets/images/add_button.svg'
 
-import "./FileUploadModal.css"
+import './FileUploadModal.css'
 
-function FileUploadModel() {
+function FileUploadModel({isOpen,onClose}) {
+
+  function handleSubmit(e){
+    e.preventDefault();
+  }
+
   return (
     <>
-      <Modal>
+      <Modal isOpen={isOpen} onClose={onClose}>
         <section>
           <h1>Upload files</h1>
-          <form action="">
+          <form action="" onSubmit={handleSubmit}>
             <div className="drop-files">
               <h4>Drop your files here!</h4>
               <p className='click-here'>or click</p>
@@ -42,7 +47,7 @@ function FileUploadModel() {
                 <span>or</span>
                 <a href="#">Cancel</a>
               </div>
-              <button>Done</button>
+              <button onClick={onClose}>Done</button>
             </div>
           </form>
         </section>
