@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper1 {
+    height: 100vh;
+    background-color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+.img1 img {
+    width: 96px;
+    height: 96px;
+}
+
+.img2 img {
+    width: 39px;
+    height: 39px;
+}
+
+.nav {
+    display: flex;
+    gap: 1054px;
+    left: 97px;
+    top: 42px;
+}
+
+.profile {
+    display: flex;
+    padding-left: 163px;
+    gap: 40px;
+}
+
+.profile img {
+    width: 220px;
+    height: 221px;
+    border: 1px solid #512b81;
+    border-radius: 50%;
+    padding: 8.35px;
+}
+
+.intro1 {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    font: 500 23.5px Montserrat;
+    color: #512b81;
+    letter-spacing: 0.02em;
+}
+
+.intro2 {
+    width: 300px;
+    height: 56px;
+    top: 94px;
+    left: 351px;
+    
+}
+
+.box {
+    width: 335px;
+    height: 100px;
+    top: 166px;
+    left: 353px;
+    border-radius: 9.86px;
+    border: 1.31px solid #6E33BF;
+    
+}
+
+.box1 {
+    padding-right: 6px;
+    padding-left: 6px;
+    font: 500 20px Montserrat;
+    color: #7e7e7e;
+    letter-spacing: 0.02em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2 {
+    box-sizing: border-box;
+    margin-top: 11px;
+    font: 700 20px Montserrat;
+    color: #1e1e1e;
+    letter-spacing: 0.02em;
+}
+.namebox{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
