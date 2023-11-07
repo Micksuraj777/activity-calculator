@@ -41,7 +41,7 @@ form {
 
 #add-files {
   border-radius: 8px;
-  background-color: #512b81;
+  background-color: var(--primary);
   z-index: 1;
   display: flex;
   align-items: center;
@@ -51,6 +51,7 @@ form {
   padding-inline: 5rem;
   height: 3rem;
   margin: -50px 0 0 -22px;
+  cursor: pointer;
 }
 
 #add-files>p {
@@ -106,6 +107,7 @@ select {
   padding-inline: 1rem;
   font-size: 0.9rem;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .footer-left {
