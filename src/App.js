@@ -15,8 +15,6 @@ function App() {
   return (
     <div className="App">
       <Faculty/>
-      {/* <button onClick={handleClose}>Open File Model</button>
-      <FileUploadModal isOpen={isFileUploadModalOpen} onClose={handleClose}/> */}
       <Table/>
     </div>
   );
