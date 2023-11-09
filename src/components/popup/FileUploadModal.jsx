@@ -1,8 +1,8 @@
 import React from 'react'
 
 
-import DropDown from './elements/DropDown.jsx'
-import Modal from "./elements/Modal.jsx"
+import DropDown from '../elements/DropDown.jsx'
+import Modal from "../elements/Modal.jsx"
 
 import AddButton from '../assets/images/add_button.svg'
 
