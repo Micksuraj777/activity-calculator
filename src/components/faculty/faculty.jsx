@@ -78,8 +78,8 @@ function faculty() {
               <Button className="btn3">
                 <h6>Activity Point</h6>
               </Button>
-              <div className="branch">
-                <h5>View Sorted List</h5>
+              <div className="report">
+                <h4>View Sorted List</h4>
               </div>
             </li>
           </ul>
