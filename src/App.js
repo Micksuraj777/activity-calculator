@@ -1,5 +1,7 @@
 import './App.css';
-import Faculty from './components/faculty/Faculty';
+import FileUploadModal from './components/popup/FileUploadModal';
+import Faculty from './components/faculty/faculty';
+import Table from './components/table/Table'
 function App() {
 
   return (
