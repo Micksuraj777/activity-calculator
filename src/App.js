@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './App.css';
-import FileUploadModal from './components/FileUploadModal';
+import FileUploadModal from './components/popup/FileUploadModal';
+import Student from './components/Login/Student';
 import Faculty from './components/faculty/faculty';
 import Table from './components/table/Table'
 function App() {
