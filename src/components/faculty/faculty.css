@@ -1,7 +1,5 @@
-*{
-    padding: 0;
-    margin: 0;
-}
+
+
 .wrapper1 {
     height: 100vh;
     background-color: white;
@@ -30,65 +28,230 @@ ul {
 
 .profile {
     display: flex;
+    justify-content: start;
+    align-items: center;
     padding-left: 163px;
     gap: 40px;
 }
 
 .profile img {
-    width: 220px;
-    height: 221px;
+    width: 150px;
+    height: 150px;
     border: 1px solid #512b81;
     border-radius: 50%;
     padding: 8.35px;
 }
 
-.intro1 {
-    box-sizing: border-box;
-    flex: 0 0 auto;
-    font: 500 23.5px Montserrat;
-    color: #512b81;
-    letter-spacing: 0.02em;
+.intro h3 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 43px;
+    letter-spacing: 0.06em;
+    text-align: left;
 }
 
-.intro2 {
-    width: 300px;
-    height: 56px;
-    top: 94px;
-    left: 351px;
-    
-}
-
-.box {
-    width: 335px;
-    height: 100px;
-    top: 166px;
-    left: 353px;
-    border-radius: 9.86px;
-    border: 1.31px solid #6E33BF;
-    
-}
-
-.box1 {
-    padding-right: 6px;
-    padding-left: 6px;
-    font: 500 20px Montserrat;
-    color: #7e7e7e;
-    letter-spacing: 0.02em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.box2 {
-    box-sizing: border-box;
-    margin-top: 11px;
-    font: 700 20px Montserrat;
-    color: #1e1e1e;
-    letter-spacing: 0.02em;
+.intro h2{
+   font-size: 15px;
+   font-weight: 400;
+   line-height: 10px;
+   letter-spacing: 0.02em;
+   text-align: left;
+   color: #512b81;
 }
 .namebox{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
     gap: 1rem;
+}
+.box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1.45px solid #6E33BF;
+    padding: 0.3rem;
+}
+
+.box h4 {
+    font-weight: 400;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #7E7E7E;  
+}
+
+.box h5 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.07em;
+    text-align: center;    
+}
+.log {
+    display: flex; /* Use flexbox to align items in a row */
+    list-style: none; /* Remove the default list styling */
+    padding: 0; /* Remove any default padding */
+  }
+  
+  .log li {
+    margin: 0; /* Add spacing between the items */
+    display: flex; /* Use flexbox for the items within the list */
+    align-items: center; /* Vertically center the items within each li element */
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #512B81;
+  }
+  .main{
+    display: flex;
+    flex-direction: row;
+
+  }
+  .batch{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    padding-left: 181px;
+    padding-top: 37px;
+    padding-bottom: 15px;
+  }
+  .btn {
+    width: 115px;
+    height: 40px;
+    padding: 5.26px 11.17px 5.26px 11.17px;
+    border-radius: 7px;
+  }
+.batchbox {
+  width: 400px;
+  height: 150px;
+  top: 488px; 
+  left: 163px; 
+  padding: 20px 49.56px 10px 20px; 
+  border-radius: 11px;
+  border: 1px solid #C1BCBCD1;
+  box-shadow: 11px 24px 26px -4px #00000033;
+  border-top: 1px solid #C1BCBCD1;
+  margin-left:163px;
+}
+
+.btn h6{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+    color: #EFEFEF;
+}
+.btn h5{
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 15px;
+    text-align: left;
+    font-weight: 600;
+}
+.batchbox ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+.batchbox ul li{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+}
+.branch {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 7px;
+    border: 1.45px solid #6E33BF;
+    width: 150px;
+    height: 40px;
+    padding: 5.26px 11.17px 5.26px 11.17px;
+    margin-right: 2px;  
+}
+.branch h4{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+    color: #7E7E7E;    
+}
+.branch h5{
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 15px;
+    text-align: left;
+    font-weight: 600;
+}
+.btn2{
+    display: flex;
+    flex-direction: row;
+    width:fit-content;
+    height: 40px;
+    padding: 5.26px, 11.17px, 5.26px, 11.17px;
+    border-radius: 7px;
+    align-items: center;
+    gap: 5px;
+
+}
+.btn2 img{
+    width: 30px;
+}
+.report{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: 40px;
+    border-radius: 7px;
+    align-items: center;
+    gap: 5px;
+    border-radius: 7px;
+    border: 1.45px solid #6E33BF;
+    padding-right: 2px;
+}
+.report ul{
+    display: flex;
+    flex-direction: row;
+}
+.report ul li {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.report img{
+    width: 20px;
+    padding-left: 5px;
+}
+.report h5{
+    font-size: 13px;
+    font-weight: 600;
+}
+.btn3{
+    display: flex;
+    flex-direction: row;
+    width:150px;
+    height: 40px;
+    padding: 5.26px, 11.17px, 5.26px, 11.17px;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.btn3 h6{
+    font-size: 11px;
+}
+.btn3 h4{
+    font-size: 15px;
 }

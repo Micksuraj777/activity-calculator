@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import './App.css';
 import FileUploadModal from './components/FileUploadModal';
-import Student from './components/Login/Student';
 import Faculty from './components/faculty/faculty';
+import Table from './components/table/Table'
 function App() {
 
   const [isFileUploadModalOpen,setFileUploadModalOpen] = useState(false);
@@ -14,9 +14,9 @@ function App() {
   return (
     <div className="App">
       <Faculty/>
-      {/* <Student/> */}
-      <button onClick={handleClose}>Open File Model</button>
-      <FileUploadModal isOpen={isFileUploadModalOpen} onClose={handleClose}/>
+      {/* <button onClick={handleClose}>Open File Model</button>
+      <FileUploadModal isOpen={isFileUploadModalOpen} onClose={handleClose}/> */}
+      <Table/>
     </div>
   );
 }

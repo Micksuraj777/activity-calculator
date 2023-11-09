@@ -2,4 +2,7 @@ button{
   border-radius: 8px;
   background-color:var(--primary);
   color: white;
+  padding-inline:0.6rem;
+  outline: none;
+  border: none;
 }

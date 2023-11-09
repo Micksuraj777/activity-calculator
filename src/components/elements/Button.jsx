@@ -2,10 +2,9 @@ import React from 'react'
 
 import './Button.css'
 
-function Button({children,fsize,px,p}) {
+function Button({className,children,fsize,px,p}) {
   return (
-    <button
-    style={{paddingInline:px,fontSize:fsize}}
+    <button className={className}
     >{children}</button>
   )
 }
