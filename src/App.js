@@ -1,21 +1,10 @@
-import { useState } from 'react';
 import './App.css';
-import FileUploadModal from './components/popup/FileUploadModal';
-import Student from './components/Login/Student';
-import Faculty from './components/faculty/faculty';
-import Table from './components/table/Table'
+import Faculty from './components/faculty/Faculty';
 function App() {
-
-  const [isFileUploadModalOpen,setFileUploadModalOpen] = useState(false);
-
-  function handleClose(){
-    setFileUploadModalOpen(!isFileUploadModalOpen)
-  }
 
   return (
     <div className="App">
       <Faculty/>
-      <Table/>
     </div>
   );
 }

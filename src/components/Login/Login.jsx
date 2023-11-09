@@ -3,8 +3,9 @@ import fi from "../../assets/images/Login/faculty_icon.png";
 import si from "../../assets/images/Login/student_icon.png";
 import book from "../../assets/images/Login/book.png";
 import eye from "../../assets/images/Login/eye_icon.png";
-import "../Login/Student.css";
-function Student() {
+
+
+export default function Login() {
   return (
     <div className="wrapper">
       <div className="left">
@@ -46,4 +47,4 @@ function Student() {
   );
 }
 
-export default Student;
+
